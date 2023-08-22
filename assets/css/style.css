@@ -20,6 +20,10 @@ header {
     background-color: rgba(120, 120, 120, 0.7);
 }
 
+h1 {
+    font-family: 'PT serif', serif;
+}
+
 /* Main content */
 main {
     background-color: #d4faff;
