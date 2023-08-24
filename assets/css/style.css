@@ -23,6 +23,9 @@ header {
     z-index: 99;
     width: 100%;
     box-shadow: 0 4px 3px #e8b697;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 header a {
@@ -58,6 +61,20 @@ nav {
     padding: 0 2.5rem;
     box-shadow: 0 4px 3px #e8b697;
     display: none;
+    top: 100%;
+    }
+
+/* Nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2.5rem;
 }
 
 /* Main content */
