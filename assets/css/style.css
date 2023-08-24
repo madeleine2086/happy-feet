@@ -75,14 +75,14 @@ nav {
 
 .nav-toggle-label {
     font-size: 2.5rem;
-    display: none;
+    
 }
 
 /* Main content */
 main {
     background-color: #e0f0d8;
     flex: 1 0 auto;
-    margin-top: 78px;
+    margin-top: 82px;
 }
 
 /* Footer */
@@ -106,7 +106,7 @@ nav {
 }
 
 #menu > li {
-    padding-left: 1rem;
+    padding-left: 0.5rem;
 }
 
 .nav-toggle-label {
@@ -114,7 +114,7 @@ nav {
 }
 
 #logo {
-    font-size: 200%;
+    font-size: 180%;
     margin: 0 0.6rem;
     line-height: 65px;
 }
