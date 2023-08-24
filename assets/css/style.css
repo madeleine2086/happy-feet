@@ -22,7 +22,7 @@ header {
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 4px 3px #e8b697
+    box-shadow: 0 4px 3px #e8b697;
 }
 
 header a {
@@ -48,6 +48,16 @@ h1 {
 
 .active {
     border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+}
+
+nav {
+    position: absolute;
+    background-color: #ffc5b3;
+    width: 100%;
+    left: 0;
+    padding: 0 2.5rem;
+    box-shadow: 0 4px 3px #e8b697;
+    display: none;
 }
 
 /* Main content */
