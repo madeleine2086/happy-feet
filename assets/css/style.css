@@ -17,12 +17,12 @@ body {
 
 /* Header*/
 header {
-    background-color: #ffc5b3;
+    background-color: #e6ffed;
     padding: 1rem;
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 4px 3px #e8b697;
+    box-shadow: 0 4px 3px #d1e8d1;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -55,11 +55,11 @@ h1 {
 
 nav {
     position: absolute;
-    background-color: #ffc5b3;
+    background-color: #e6ffed;
     width: 100%;
     left: 0;
     padding: 0 2.5rem;
-    box-shadow: 0 4px 3px #e8b697;
+    box-shadow: 0 4px 3px #d1e8d1;
     display: none;
     top: 100%;
     }
@@ -80,14 +80,22 @@ nav {
 
 /* Main content */
 main {
-    background-color: #e0f0d8;
+    background-color: #e1e8d1;
     flex: 1 0 auto;
     margin-top: 82px;
 }
 
 /* Footer */
 footer {
-    background-color: #ffc5b3;
+    background-color: #e6ffed;
+}
+
+#social-media {
+    text-align: center;
+    padding: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
 }
 
 /* media query for tablets and larger*/
