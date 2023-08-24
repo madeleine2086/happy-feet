@@ -124,3 +124,10 @@ main {
     margin-top: 97px;
 }
 }
+
+/* Media query for screen size 992px and larger*/
+@media screen and (min-width: 992px) {
+    #menu a:hover {
+        border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+    }
+}
