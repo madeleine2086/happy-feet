@@ -85,6 +85,25 @@ main {
     margin-top: 82px;
 }
 
+/* Welcome section*/
+#welcome {
+    height: 600px;
+    width: 100%;
+    background: url("../images/pexels-isaac-taylor-1557252.jpg") no-repeat center/cover;
+    position: relative;
+}
+
+#welcome-text {
+    background-color: rgba(255, 255, 255, 0.9);
+    position: absolute;
+    width: 70%;
+    min-height: 200px;
+    top: 30px;
+    padding-left: 10px;
+    padding-top: 15px;
+    font-size: 130%;
+}
+
 /* Footer */
 footer {
     background-color: #e6ffed;
