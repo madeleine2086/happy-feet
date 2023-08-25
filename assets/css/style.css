@@ -87,7 +87,7 @@ main {
 
 /* Welcome section*/
 #welcome {
-    height: 600px;
+    height: 400px;
     width: 100%;
     background: url("../images/pexels-isaac-taylor-1557252.jpg") no-repeat center/cover;
     position: relative;
@@ -124,44 +124,83 @@ footer {
     list-style-type: none;
 }
 
+/* Media query for large or landscape phones (576px and up) */
+@media screen and (min-width: 576px) {
+    #welcome-text {
+        min-height: 150px;
+        width: 60%
+    }
+
+    #welcome-text>h2 {
+        font-size: 170%;
+    }
+
+    #welcome-text>h3 {
+        font-size: 160%;
+    }
+}
+
 /* media query for tablets and larger*/
 @media screen and (min-width: 768px) {
 /* Header*/
-nav {
+    nav {
     display: block;
     position: relative;
     box-shadow: none;
     width: fit-content;
     padding-right: 1rem;
-}
+    }
 
-#menu {
+    #menu {
     display: flex;
-}
+    }
 
-#menu > li {
+    #menu > li {
     padding-left: 0.5rem;
-}
+    }
 
-.nav-toggle-label {
-    display: none;
-}
+    .nav-toggle-label {
+        display: none;
+    }
 
-#logo {
-    font-size: 180%;
-    margin: 0 0.6rem;
-    line-height: 65px;
-}
+    #logo {
+        font-size: 180%;
+        margin: 0 0.6rem;
+        line-height: 65px;
+    }
 
-/* Main*/
-main {
-    margin-top: 97px;
-}
+ /* Main*/
+    main {
+        margin-top: 97px;
+    }
+
+    #welcome-text {
+        min-height: 130px;
+    }
 }
 
 /* Media query for screen size 992px and larger*/
 @media screen and (min-width: 992px) {
     #menu a:hover {
         border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+    }
+
+    #welcome {
+        height: 500px;
+    }
+
+    #welcome-text {
+        width: 50%;
+    }
+
+    #welcome-text > h2 {
+        font-size: 200%;
+        text-align: center;
+    }
+
+    #welcome-text > h3 {
+        font-size: 180%;
+        text-align: center;
+        padding-bottom: 10px;
     }
 }
