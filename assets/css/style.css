@@ -85,6 +85,19 @@ main {
     margin-top: 82px;
 }
 
+/* care.html styles */
+#care-section {
+    background: url("../images/pexels-anete-lusina-5240642\ \(1\).jpg") no-repeat center/cover;
+    width: 100%;
+}
+
+#care-section > div {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-bottom: 1px solid #3a3a3a;
+    width: 60%;
+    margin: 10px;
+}
+
 /* Welcome section*/
 #welcome {
     height: 400px;
