@@ -125,6 +125,7 @@ main {
 #care {
     background: url("../images/pexels-anete-lusina-5240642\ \(1\).jpg") no-repeat center/cover;
     width: 100%;
+    padding: 5px;
 }
 
 #care > h2,
@@ -134,7 +135,7 @@ main {
 }
 
 #care-section {
-
+    
 }
 
 #care-section div {
@@ -143,7 +144,7 @@ main {
     width: fit-content;
     text-align: left;
     padding: 5px;
-    margin: 10% 25%;
+    margin: 10% 15%;
     /* */
 }
 
@@ -167,12 +168,23 @@ footer {
         width: 60%
     }
 
-    #welcome-text>h2 {
+    #welcome-text > h2 {
         font-size: 170%;
     }
 
-    #welcome-text>h3 {
+    #welcome-text > h3 {
         font-size: 160%;
+    }
+
+    /* styles for care.html */
+    #care > h2 {
+        font-size: 180%;
+        padding: 5% 10% 1% 10%;
+    }
+
+    #care > p {
+        font-size: 120%;
+        padding: 10px;
     }
 }
 
@@ -213,6 +225,19 @@ footer {
     #welcome-text {
         min-height: 130px;
     }
+
+    /* styles for divs in care.html*/
+    #care-section h3 {
+        font-size: 150%;
+        padding-left: 15px;
+        padding-bottom: 5px;
+    }
+
+    #care-section p {
+        font-size: 110%;
+        padding-left: 10px;
+        padding-bottom: 10px;
+    }
 }
 
 /* Media query for screen size 992px and larger*/
@@ -237,6 +262,29 @@ footer {
     #welcome-text > h3 {
         font-size: 180%;
         text-align: center;
+        padding-bottom: 10px;
+    }
+
+    /* styles for care.html */
+    #care>h2 {
+        font-size: 230%;
+        padding: 5% 10% 1% 10%;
+    }
+    
+    #care>p {
+        font-size: 170%;
+        padding: 10px;
+    }
+
+    #care-section h3 {
+        font-size: 150%;
+        padding-left: 15px;
+        padding-bottom: 5px;
+    }
+    
+    #care-section p {
+        font-size: 130%;
+        padding-left: 10px;
         padding-bottom: 10px;
     }
 }
