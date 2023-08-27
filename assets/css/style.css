@@ -111,6 +111,14 @@ main {
     font-size: 120%;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+}
+
 /* care.html styles */
 #care {
     background: url("../images/pexels-anete-lusina-5240642\ \(1\).jpg") no-repeat center/cover;
