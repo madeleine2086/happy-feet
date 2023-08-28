@@ -174,14 +174,24 @@ main {
 }
 
 #help-text {
-    border: solid 1px white;
+    border: solid 2px white;
     margin: 1rem;
     padding: 10px;
     background-color:rgba(255, 255, 255, 0.8);
 }
 
+/* get-help form styles */
 #help-form {
+    border: solid 2px gainsboro;
+    margin: 1rem;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.6);
+}
 
+.ask-button {
+    background-color: slategray;
+    font-size: 100%;
+    padding:  
 }
 
 /* Footer */
