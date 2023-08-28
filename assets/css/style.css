@@ -173,6 +173,17 @@ main {
     background: url(../images/pexels-cottonbro-studio-4684466\ \(1\).jpg) no-repeat center/cover;
 }
 
+#help-text {
+    border: solid 1px white;
+    margin: 1rem;
+    padding: 10px;
+    background-color:rgba(255, 255, 255, 0.8);
+}
+
+#help-form {
+
+}
+
 /* Footer */
 footer {
     background-color: #e6ffed;
