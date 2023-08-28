@@ -148,6 +148,26 @@ main {
     /* */
 }
 
+/* Problems.html styles*/
+
+#problems-header {
+    margin: 1rem;
+    font-size: 150%;
+    text-align: left;
+}
+
+.container div {
+    background-color: #aeeaae80;
+    border: solid 2px #3a3a3a;
+    margin: 1rem;
+    padding: 0.5rem;
+    width: 70%;
+}
+
+.container h3 {
+    text-decoration: underline;
+}
+
 /* Footer */
 footer {
     background-color: #e6ffed;
