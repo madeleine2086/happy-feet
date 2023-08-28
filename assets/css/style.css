@@ -168,6 +168,11 @@ main {
     text-decoration: underline;
 }
 
+/* get-help.html styles*/
+#ask {
+    background: url(../images/pexels-cottonbro-studio-4684466\ \(1\).jpg) no-repeat center/cover;
+}
+
 /* Footer */
 footer {
     background-color: #e6ffed;
