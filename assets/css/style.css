@@ -144,6 +144,10 @@ main {
 }
 
 /* Problems.html styles*/
+img {
+    width: 150px;
+    height: 96px;
+}
 
 #problems-header {
     margin: 1rem;
@@ -247,6 +251,12 @@ footer {
         font-size: 120%;
         padding: 10px;
     }
+
+    /* resizing image in problems.html for Plantar Fascitis*/
+    img {
+        width: 200px;
+        height: 130px;
+    }
 }
 
 /* media query for tablets and larger*/
@@ -303,6 +313,13 @@ footer {
     /* Making font bigger in problems.html */
     .container div {
         font-size: 110%;
+    }
+
+    /* resizing image in problems.html for Plantar Fascitis*/
+    img {
+        width: 250px;
+        height: 160px;
+        margin-left: 120px;
     }
 
     /* styles for get-help.html*/
@@ -381,5 +398,10 @@ footer {
         background-color: #faf9f6;
     }
 
-
+    /* resizing image in problems.html for Plantar Fascitis*/
+    img {
+        width: 250px;
+        height: 160px;
+        margin: auto;
+    }
 }
