@@ -353,4 +353,19 @@ footer {
         padding-left: 10px;
         padding-bottom: 10px;
     }
+
+    /* styles for problems.html divs*/
+    .space-out {
+        display: flex;
+        flex-direction: row;
+        align-items:flex-end;
+    }
+
+    #deco-image {
+        display: none;
+    }
+
+    #main-problems {
+        background-color: #faf9f6;
+    }
 }
