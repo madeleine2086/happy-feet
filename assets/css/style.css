@@ -390,6 +390,10 @@ footer {
         align-items:flex-end;
     }
 
+    .space-out div {
+        min-height: 370px;
+    }
+
     #image-problems {
         display: none;
     }
