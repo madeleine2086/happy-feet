@@ -22,7 +22,7 @@ header {
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 4px 3px #d1e8d1;
+    box-shadow: 0 4px 3px #d3d3d3;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -37,7 +37,8 @@ h1 {
     font-size: 210%;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: #6b0a99;
+    text-decoration: underline #93678E dotted;
+    color: #93678E;
 }
 
 #menu {
@@ -56,11 +57,11 @@ h1 {
 
 nav {
     position: absolute;
-    background-color: #e6ffed;
+    background-color: #d3d3d3;
     width: 100%;
     left: 0;
     padding: 0 2.5rem;
-    box-shadow: 0 4px 3px #d1e8d1;
+    box-shadow: 0 4px 3px #d3d3d3;
     display: none;
     top: 100%;
     }
@@ -81,7 +82,7 @@ nav {
 
 /* Main content */
 main {
-    background-color: #e1e8d1;
+    background-color: #eaeaea;
     flex: 1 0 auto;
     margin-top: 82px;
 }
@@ -95,7 +96,7 @@ main {
 }
 
 #welcome-text {
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.9);
     position: absolute;
     width: 70%;
     min-height: 200px;
@@ -157,7 +158,7 @@ main {
 }
 
 .container div {
-    background-color: #aeeaae80;
+    background-color: rgba(190, 220, 246, 0.4);
     border: solid 2px #3a3a3a;
     margin: 1rem;
     padding: 0.5rem;
