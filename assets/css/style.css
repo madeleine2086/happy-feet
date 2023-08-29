@@ -135,10 +135,6 @@ main {
     background-color: rgba(255, 255, 255, 0.6);
 }
 
-#care-section {
-    
-}
-
 #care-section div {
     background-color: rgba(255, 255, 255, 0.7);
     border-bottom: 1px solid #3a3a3a;
@@ -303,6 +299,11 @@ footer {
         font-size: 110%;
         padding-left: 10px;
         padding-bottom: 10px;
+    }
+
+    /* Making font bigger in problems.html */
+    .container div {
+        font-size: 110%;
     }
 
     /* styles for get-help.html*/
