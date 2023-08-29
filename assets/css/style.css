@@ -146,7 +146,6 @@ main {
     text-align: left;
     padding: 5px;
     margin: 10% 15%;
-    /* */
 }
 
 /* Problems.html styles*/
@@ -211,6 +210,8 @@ input {
 .ask-button {
     background-color: slategray;
     font-size: 100%;
+    width: 100px;
+    height: 30px;
 }
 
 /* Footer */
