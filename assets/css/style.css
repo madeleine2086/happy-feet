@@ -189,6 +189,14 @@ main {
 }
 
 /* get-help form styles */
+textarea {
+    width: 225px;
+}
+
+input {
+    width: 225px;
+}
+
 #help-form {
     border: solid 2px gainsboro;
     margin: 1rem;
