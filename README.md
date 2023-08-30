@@ -66,6 +66,7 @@ Happy Feet is a site that hopes to provide basic information about footcare and 
 
 This site was tested on all screen sizes, on Chrome and Microsoft Edge browsers. For small screen sizes the user will see a logo text and dropdown menu with a list of content. For larger screens logo is bigger and list of content is visible in the header.
 Content adjusts its size depending on the screen size. The Common Problems page on screens 992px and larger, doesn't show an image, as with the content being important and larger, user's attention will be focused on said content.
+I have confirmed that the form in Get Help works, requires entry in every field, accepts only email in the email filed and the Get Help button works.
 
 ### Validator Testing
 
