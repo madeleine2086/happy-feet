@@ -171,7 +171,7 @@ img {
     background: url("../images/pexels-ingo-joseph-609771.jpg") no-repeat center center/cover;
     height: 200px;
     width: 200px;
-    border: solid 1px, #3a3a3a;
+    border: solid 1px #3a3a3a;
     border-radius: 50%;
 }
 
